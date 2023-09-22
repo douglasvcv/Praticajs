@@ -1,0 +1,37 @@
+*{
+  color: white;
+}
+body{
+  background-color: rgb(91, 91, 176);
+  display: inline;
+  text-align: center;
+  
+}
+
+#container{
+  padding: 30px;
+  margin: auto;
+  height: 250px;
+  max-width: 250px;
+  background-color: white;
+  border-radius: 20px;
+}
+div#txt{
+  color: black;
+}
+div img{
+  border-radius: 50%;
+  margin-top: 20px;
+  
+}
+p#bons{
+  color: black;
+}
+footer{
+  margin-top: 30px;
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
