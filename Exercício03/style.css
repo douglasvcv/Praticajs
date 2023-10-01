@@ -1,0 +1,42 @@
+
+body{
+  background-color: rgb(38, 71, 142);
+  display: inline;
+  text-align: center;
+  
+}
+
+#container{
+  padding: 30px;
+  margin: auto;
+  height: 250px;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 20px;
+ 
+}
+#formu{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+div#txt{
+  color: black;
+}
+div img{
+  border-radius: 50%;
+  margin-top: 20px;
+  
+}
+p#bons{
+  color: black;
+}
+footer{
+  margin-top: 30px;
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
