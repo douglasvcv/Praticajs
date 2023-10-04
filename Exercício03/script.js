@@ -11,9 +11,7 @@ var f = Number(fim.value)
 var pass = Number(passo.value)
  
   res.innerHTML = `Contando: `
-var ini = Number(inicio.value)
-var f = Number(fim.value)
-var pass = Number(passo.value)
+
 if(pass == 0){
   
   window.alert("Erro! Passo será igual a 1")
@@ -21,14 +19,15 @@ if(pass == 0){
 }
 if(ini < f){
   for(let i = ini; i <= f; i += pass){
-    res.innerHTML += `${i} `
+    res.innerHTML += `| ${i} `
   }
     
 }else{
     for(let i = ini; i >= f; i -= pass){
-      res.innerHTML += `${i} `
+      res.innerHTML += `| ${i} `
   }
 
   }
+  res.innerHTML += `|`
     }
       }
