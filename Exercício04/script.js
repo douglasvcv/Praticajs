@@ -9,6 +9,7 @@ function tabuada(){
   tab.innerHTML = ''
   for(let nt = 1; nt <= 10; nt++){
     let item = document.createElement('option')
+    item.value = `tab${nt}`
     item.text = `${n} x ${nt} = ${n*nt}`
     tab.appendChild(item)
   }
